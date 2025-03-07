@@ -16,7 +16,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import silhouette_score
 
 # Define Local Model Path
-MODEL_DIR = r"C:\Users\gkeer\OneDrive\Desktop\ML Projects\Customer Segmentation Model"
+MODEL_DIR = r"/model file path/"
 os.makedirs(MODEL_DIR, exist_ok=True)  # Ensure directory exists
 
 MODEL_PATH = os.path.join(MODEL_DIR, "customer_segmentation_model.pkl")
